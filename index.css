@@ -1,0 +1,28 @@
+
+body {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-image: url("background-for-resume-paper-4.jpg");
+    align-items: center;
+    font-family: cursive;
+    overflow-x: hidden;
+    font-size: 1.5em;
+}
+
+.main_container {
+    position: fixed;
+    top: 50%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: red;
+}
+a {
+    font-family: 'Goldman', cursive;
+    color: white;
+}

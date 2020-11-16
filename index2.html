@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index2.css"/>
+    <title>Пантелеев Е.А.</title>
+</head>
+<body>
+<div class="container_1">
+    <h1> РЕЗЮМЕ</h1>
+    <ul>
+        <li>
+            <p> <a href="#hidden1" onclick="view('hidden1'); return false">  Кто я  </a> </p>
+            <div id="hidden1" style="display: none;">
+        <div> <strong> Пантелеев Егор Александрович </strong>
+        </div>
+    </div>
+        </li>
+        <li>
+            <p>  <a href="#hidden2" onclick="view('hidden2'); return false"> Чем хочу заниматься</a> </p>
+            <div id="hidden2" style="display: none;">
+                <div>
+                    <p>А тут основной текст</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <p> <a href="#hidden3" onclick="view('hidden3'); return false"> Что я умею</a></p>
+            <div id="hidden3" style="display: none;">
+        <p>А тут основной текст</p>
+    </div>
+        </li>
+    </ul>
+</div>
+    <script>function view(n) {
+        style = document.getElementById(n).style;
+        style.display = (style.display == 'block') ? 'none' : 'block';
+    }</script>
+
+</div>
+</body>
+</html>
